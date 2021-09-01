@@ -9,14 +9,14 @@ class Chemical extends Mole {
 		Chemical obj = new Chemical();
 		System.out.println("Conversion Program");
 		@SuppressWarnings("resource")
-		Scanner in = new Scanner(System.in);
-		int o = 0;
-		while (o != 1) {
+		Scanner sc = new Scanner(System.in);
+		int choice = 0;
+		while (choice != 1) {
 			System.out.println("1. Chemical");
 			System.out.println("2. Electrical");
 			System.out.println("3. Exit");
 			System.out.print("Enter your choice (Only 1 or 2):");
-			int oc = in.nextInt();
+			int oc = sc.nextInt();
 			System.out.println("");
 			switch (oc) {
 			case 1:
@@ -28,7 +28,7 @@ class Chemical extends Mole {
 					System.out.println("5. ppm & mg/Liter");
 					System.out.println("6. Exit");
 					System.out.print("Enter your choice (Only 1/ 2/ 3/ 4):");
-					s = in.nextInt();
+					s = sc.nextInt();
 					System.out.println("");
 					switch (s) {
 					case 1:
@@ -39,7 +39,7 @@ class Chemical extends Mole {
 							System.out.println("3. Kelvin");
 							System.out.println("4. Exit");
 							System.out.println("Enter your choice (Only 1/ 2/ 3/ 4):");
-							int c = in.nextInt();
+							int c = sc.nextInt();
 							System.out.println("");
 							switch (c) {
 							case 1: {
@@ -68,7 +68,7 @@ class Chemical extends Mole {
 							System.out.println("2. Torr");
 							System.out.println("3. Exit");
 							System.out.println("Enter your choice (Only 1/ 2/ 3):");
-							int c = in.nextInt();
+							int c = sc.nextInt();
 							System.out.println("");
 							switch (c) {
 							case 1: {
@@ -93,7 +93,7 @@ class Chemical extends Mole {
 							System.out.println("2. Grams");
 							System.out.println("3. Exit");
 							System.out.println("Enter your choice (Only 1/ 2/ 3):");
-							int c = in.nextInt();
+							int c = sc.nextInt();
 							System.out.println("");
 							switch (c) {
 							case 1: {
@@ -119,7 +119,7 @@ class Chemical extends Mole {
 							System.out.println("2. Normality");
 							System.out.println("3. Exit");
 							System.out.println("Enter your choice (Only 1/ 2/ 3):");
-							int c = in.nextInt();
+							int c = sc.nextInt();
 							System.out.println("");
 							switch (c) {
 							case 1: {
@@ -144,7 +144,7 @@ class Chemical extends Mole {
 							System.out.println("2. ppm");
 							System.out.println("3. Exit");
 							System.out.println("Enter your choice (Only 1/ 2/ 3):");
-							int c = in.nextInt();
+							int c = sc.nextInt();
 							System.out.println("");
 							switch (c) {
 							case 1: {
@@ -175,7 +175,7 @@ class Chemical extends Mole {
 				obj.measure();
 				break;
 			case 3:
-				o = 1;
+				choice = 1;
 				break;
 			}
 		}

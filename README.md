@@ -11,6 +11,11 @@ Conversions Project.
 ## Introduction
 This is a Measurements Conversions Project which deals with various metric conversions.
 
+- Course Name: MEASUREMENTS
+- Course Code: 15GN1003
+- Course Credits: 2
+- Academic Year: 2016
+
 ## Technologies
 - Java
 
@@ -20,8 +25,8 @@ This is a Measurements Conversions Project which deals with various metric conve
 ## Installation
 ### Get repository
 ```git
-git https://github.com/msaf9/MeasurementsConversionsProject.git
-cd MeasurementsConversionsProject
+git https://github.com/msaf9/Conversions.git
+cd Conversions
 ```
 
 ## License

@@ -1,16 +1,19 @@
 # Measurements Project
 Conversions Project.
 
-## Table of contents
-1. Introduction
-2. Technologies
-3. Project status
-4. Installation
-5. License
+- [Measurements Project](#measurements-project)
+  - [Introduction](#introduction)
+    - [Course Information](#course-information)
+  - [Technologies](#technologies)
+  - [Project status](#project-status)
+  - [Installation](#installation)
+    - [Get repository](#get-repository)
+  - [License](#license)
 
 ## Introduction
 This is a Measurements Conversions Project which deals with various metric conversions.
 
+### Course Information
 - Course Name: MEASUREMENTS
 - Course Code: 15GN1003
 - Course Credits: 2

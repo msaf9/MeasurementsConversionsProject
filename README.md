@@ -28,8 +28,8 @@ This is a Measurements Conversions Project which deals with various metric conve
 ## Installation
 ### Get repository
 ```git
-git https://github.com/msaf9/Conversions.git
-cd Conversions
+git https://github.com/msaf9/conversions.git
+cd conversions
 ```
 
 ## License

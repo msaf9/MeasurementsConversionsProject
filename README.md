@@ -1,16 +1,15 @@
-# Measurements Project
+<h1> Measurements Project </h1>
 Conversions Project.
 
 <h2>Table of contents</h2>
 
-- [Measurements Project](#measurements-project)
-  - [Introduction](#introduction)
-    - [Course Information](#course-information)
-  - [Technologies](#technologies)
-  - [Project status](#project-status)
-  - [Installation](#installation)
-    - [Get repository](#get-repository)
-  - [License](#license)
+- [Introduction](#introduction)
+  - [Course Information](#course-information)
+- [Programming Language](#programming-language)
+- [Project status](#project-status)
+- [Installation](#installation)
+  - [Get repository](#get-repository)
+- [License](#license)
 
 ## Introduction
 This is a Measurements Conversions Project which deals with various metric conversions.
@@ -21,7 +20,7 @@ This is a Measurements Conversions Project which deals with various metric conve
 - Course Credits: 2
 - Academic Year: 2016
 
-## Technologies
+## Programming Language
 - Java
 
 ## Project status

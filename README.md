@@ -1,7 +1,7 @@
 # Measurements Project
 Conversions Project.
 
-<h2>Table of content</h2>
+<h2>Table of contents</h2>
 
 - [Measurements Project](#measurements-project)
   - [Introduction](#introduction)
